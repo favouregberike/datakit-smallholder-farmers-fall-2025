@@ -119,7 +119,7 @@ Farmers frame financial questions in practical, outcome-driven language. Common 
    - Evaluated cross-country patterns in credit needs, subsidies, savings culture, and hardship.
      
 **Step 3**: Visualization, report, and interpretation
-   - Designed Tableau dashboards to explore and visualize monthly trends, category flows, and country differences [Tableau Packaged Workbook Uploaded]
+   - Designed Tableau dashboards to explore and visualize monthly trends, category flows, and country differences [Tableau Packaged Workbook Uploaded](https://public.tableau.com/app/profile/precious.o.enahoro/viz/DataKindandProducersDirectDataKitChallenge-PreciousEnahoro-Challenge5/KeyFinding1)
    - Produced summary insights focused on farmers’ real-world financial pain points.
    - Wrote interpretive narratives explaining behavioral patterns and regional variations.
 
@@ -152,36 +152,34 @@ Farmers frame financial questions in practical, outcome-driven language. Common 
 ```
 Precious Enahoro/
 ├── README.md (this file)
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   └── 03_analysis.ipynb
-├── scripts/
-│   ├── data_loader.py
-│   ├── preprocessing.py
-│   └── visualization.py
 ├── key-findings-vizzes/
-│   ├── viz1.png
-│   ├── viz2.png
-│   └── viz3.png
-├── results/
-│   ├── summary_statistics.csv
-│   └── findings.md
-└── tableau/ (if applicable - only small derived datasets)
+│   ├── Financial Questions as a Share of Total Farmer Queries (by Country).png
+│   ├── Financial Subcategory Mix by Country.png
+│   ├── Key Finding 1.png
+│   ├── Sankey Plot - Farmers Challenges and Opportunities.png
+│   ├── Seasonal Trends in Farmer Financial Questions By Country.png
+│   ├── Seasonal Trends in Farmer Financial Questions.png
+│   └──images.md
+├── sql_scripts/
+│   ├── base_analysis_scripts/
+|   │   ├── README.md
+|   │   ├── base_tables_for_chi_square_tests.sql
+|   │   └── finding_pct_subcategory_per_month.sql
+│   ├── **README.md (has the directions on how to run the scripts)**
+│   ├── cleaning_question_topic_field.sql
+│   ├── condensing_financial_subthemes.sql
+│   ├── data_loading_and_main_financial_classifier.sql
+│   ├── deduping_questions.sql
+│   ├── downloading_streamlined_file_to_desktop.sql
+│   └── extra_data_cleaning.sql
+└── tableau/ 
     └── Tableau Public Link.md
 ```
 
 ## Dependencies
 
 SQL code ran using DuckDB driver in DBeaver.
-```
 
-### Cleaning the Data and Running the Analysis --to be updated
-# Open and run scripts in order:
-# 1. 01_data_exploration.ipynb
-# 2. 02_data_cleaning.ipynb
-# 3. 03_analysis.ipynb
-```
 
 ## Contact and Collaboration
 - **Author**: Precious Enahoro
